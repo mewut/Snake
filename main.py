@@ -34,6 +34,7 @@ apple_position = [random.randrange(1, (x // 10)) * 10,
                   random.randrange(1, (y // 10)) * 10]
 
 apple_spawn = True
+apple_colour = RED
 
 
 direction = 'RIGHT'
@@ -123,7 +124,7 @@ while True:
 
     for row in range(COUNT_BLOCK):
         for column in range(COUNT_BLOCK):
-                   pygame.draw.rect(game, WHITE, [10 + column * SIZE_BLOCK, 10 + row * SIZE_BLOCK, SIZE_BLOCK, SIZE_BLOCK])
+            pygame.draw.rect(game, WHITE, [10 + column * SIZE_BLOCK, 10 + row * SIZE_BLOCK, SIZE_BLOCK, SIZE_BLOCK])
 
     for pos in snake_body:
         pygame.draw.rect(game, BLACK,
