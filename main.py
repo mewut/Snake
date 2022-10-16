@@ -158,4 +158,3 @@ while True:
 # v = Vector2(5, 4)               Is = [5, 4]
 # v.x -> 5                        Is[0] -> 5
 # v.y -> 4                        Is[1] -> 4
-
